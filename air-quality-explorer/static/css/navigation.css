@@ -1,0 +1,166 @@
+@media(max-width: 1165px)  {
+
+    .navbar-header {
+    	float: none;
+  	}
+	.navbar-left,.navbar-right {
+	    float: none !important;
+	}
+	.navbar-toggle {
+	    display: block;
+	}
+	.navbar-collapse {
+	    border-top: 1px solid transparent;
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+	    top: 0;
+	    border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+	    display: none!important;
+	}
+	.navbar-nav {
+	    float: none!important;
+	    margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+	    float: none;
+	}
+	.navbar-nav>li>a, .navbar-nav>li>select {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+        font-weight: 700;
+	}
+	.collapse.in{
+	    display:block !important;
+	}
+
+}
+@media (min-width: 768px){
+    .navbar-nav>li>select {
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #34495e ;
+        border: 0 solid #333;
+    }
+
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.banner-container {
+    background: url("https://servir.adpc.net/themes/svmk/images/optimized/satellite-inside.png");
+    background-position: 110% 70%;
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+}
+
+.menu-container {
+	background-color: #3c4245 !important;
+}
+
+.banner {
+    /*height: 50px;*/
+    margin: 10px;
+    /*float: left;*/
+    background: no-repeat fixed center;
+}
+
+.usaid {
+    background-size: auto 50px;
+    width: 120px !important;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+@media (max-width: 1024px) {
+	.usaid {
+    	margin: auto;
+	}
+}
+
+.nasa {
+    background-size: auto 50px;
+    width: 40px !important;
+    float: left;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+	.nasa {
+    	margin: auto;
+	}
+}
+
+.adpc {
+    background-size: auto 50px;
+    width: 80px !important;
+    float: left;
+    margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+	.adpc {
+    	margin: auto;
+	}
+}
+
+.pcd {
+    background-size: auto 50px;
+    width: 40px !important;
+    float: left;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+	.pcd {
+    	margin: auto;
+	}
+}
+
+.gistda {
+    background-size: auto 50px;
+    width: 80px !important;
+    float: left;
+    padding-top: 5px;
+}
+
+@media (max-width: 1024px) {
+	.gistda {
+    	margin: auto;
+	}
+}
+
+
+.servir {
+    float: right;
+    background-size: auto 35px;
+    width: 200px !important;
+    padding-top: 10px;
+}
+
+@media (max-width: 1024px) {
+	.servir {
+    	margin: auto;
+    	/*float: none;*/
+	}
+}
+
+.navmenu {
+	color: rgb(255,255,255) !important;
+    color: rgba(255,255,255,0.87) !important;
+    text-transform: uppercase;
+}
+
+#toggle-nav:hover, .nav > li > a:hover , .tab-active{
+    color: #bde456 !important;
+    font-weight: 700;
+}

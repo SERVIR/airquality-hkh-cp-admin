@@ -1,0 +1,34 @@
+{% load cms_tags staticfiles %}
+<div id="aqi_content_tab" class="tab-pane fade">
+
+    <!-- <p>Click on a point to determine the air quality index at your location</p> -->
+    <!-- <p><b>Parameters</b></p>
+    <select class="form-control" name="air_parameter" id="air_parameter"></select> -->
+    <table style="width:100%;">
+        <tr>
+            <td style="width:30%; padding: 2%;">
+                <img id="aqi_img" src="" alt="" style="width: 100px;">
+            </td>
+            <td style="width:70%; padding: 2%;">
+                <b id="station_name"></b><br>
+                <p id="obs_date"></p>
+                <h3 id="aqi_txt"></h3>
+            </td>
+        </tr>
+        <tr colspan="2">
+            <small><b>[[ 'Data provided by' | translate]] </b> <a href="http://air4thai.pcd.go.th/webV2/">[[ 'Thailand Pollution Control Department' | translate]]</a></small>
+        </tr>
+        <tr>
+          <div class="forpm25"  style="display: table;width:100%;">
+             <div class="pm25_info_content" style="background-color: #6ef0ff;"><label>[[ 'Excellent' | translate]]</label></div>
+             <div class="pm25_info_content" style="background-color: #24cf1b;"><label>[[ 'Satifactory' | translate]]</label></div>
+             <div class="pm25_info_content" style="background-color: #eff213;"><label>[[ 'Moderate' | translate]]</label></div>
+             <div class="pm25_info_content" style="background-color: #eda702;"><label>[[ 'Unhealthy' | translate]]</label></div>
+             <div class="pm25_info_content" style="background-color: #ed1e02;"><label>[[ 'Very Unhealthy' | translate]]</label></div>
+          </div>
+        </tr>
+
+
+    </table>
+
+</div>
