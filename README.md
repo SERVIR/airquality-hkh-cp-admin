@@ -331,7 +331,7 @@ sudo service nginx status
 ### You can change permissions as
 `sudo chown -R -v your-user /your-folder`
 
-##Credits
+## Credits
 Development of the Admin Interface was funded through the NASA SERVIR-Nepal Air Quality Explorer UI/UX Challenge, administered through the NASA Open Innovation Services 2 contract, by the NASA Tournament Lab. Through the Tournament Lab, NASA engages the global solver community to transform problems into solution for NASA and the Federal Government.
  
 CrowdPlat was awarded this challenge and executed the contract between September 2022 and May 2023.
